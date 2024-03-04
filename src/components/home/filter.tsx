@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 
 const Filter = () => {
@@ -92,13 +93,106 @@ const Filter = () => {
                 <button className='bg-ultramarine-500 hover:bg-ultramarine-300 text-white px-9 py-3 rounded font-medium min-w-64'>Return</button>
             </div>
             <div className='grid gap-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 mt-6'>
-                <button className='border-2 border-black/25 rounded py-1 px-10 text-center text-sm'>VITA</button>
-                <button className='border-2 border-black/25 rounded py-1 px-10 text-center text-sm'>389999</button>
-                <button className='border-2 border-black/25 rounded py-1 px-10 text-center text-sm'>Mini-Lock</button>
-                <button className='border-2 border-black/25 rounded py-1 px-10 text-center text-sm'>1.85 mm</button>
-                <button className='border-2 border-black/25 rounded py-1 px-10 text-center text-sm'>1.00 mm</button>
-                <button className='border-2 border-black/25 rounded py-1 px-10 text-center text-sm'>SMA</button>
-                <button className='border-2 border-black/25 rounded py-1 px-10 text-center text-sm'>2.92 mm</button>
+                <button className='border-2 border-black/25 hover:border-ultramarine-400 text-black hover:text-ultramarine-400 transition-all font-medium rounded py-1 px-10 text-center text-sm '>VITA</button>
+                <button className='border-2 border-black/25 hover:border-ultramarine-400 text-black hover:text-ultramarine-400 transition-all font-medium rounded py-1 px-10 text-center text-sm '>389999</button>
+                <button className='border-2 border-black/25 hover:border-ultramarine-400 text-black hover:text-ultramarine-400 transition-all font-medium rounded py-1 px-10 text-center text-sm '>Mini-Lock</button>
+                <button className='border-2 border-black/25 hover:border-ultramarine-400 text-black hover:text-ultramarine-400 transition-all font-medium rounded py-1 px-10 text-center text-sm '>1.85 mm</button>
+                <button className='border-2 border-black/25 hover:border-ultramarine-400 text-black hover:text-ultramarine-400 transition-all font-medium rounded py-1 px-10 text-center text-sm '>1.00 mm</button>
+                <button className='border-2 border-black/25 hover:border-ultramarine-400 text-black hover:text-ultramarine-400 transition-all font-medium rounded py-1 px-10 text-center text-sm '>SMA</button>
+                <button className='border-2 border-black/25 hover:border-ultramarine-400 text-black hover:text-ultramarine-400 transition-all font-medium rounded py-1 px-10 text-center text-sm '>2.92 mm</button>
+            </div>
+
+            <div className='border border-concrete-500 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-6 my-8 overflow-auto max-h-[60vh]'>
+                <div className=''>
+                    <div className='border-2 border-ultramarine-500 relative'>
+                    <span className='absolute top-3 right-3'>
+                        <svg width="24" height="24" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10 5C10 7.7614 7.7614 10 5 10C2.23857 10 0 7.7614 0 5C0 2.23857 2.23857 0 5 0C7.7614 0 10 2.23857 10 5ZM5 7.875C5.2071 7.875 5.375 7.7071 5.375 7.5V4.5C5.375 4.2929 5.2071 4.125 5 4.125C4.7929 4.125 4.625 4.2929 4.625 4.5V7.5C4.625 7.7071 4.7929 7.875 5 7.875ZM5 2.5C5.27615 2.5 5.5 2.72386 5.5 3C5.5 3.27614 5.27615 3.5 5 3.5C4.72385 3.5 4.5 3.27614 4.5 3C4.5 2.72386 4.72385 2.5 5 2.5Z" fill="#0077C8"/>
+                        </svg>
+                    </span>
+                    <div className='aspect-w-16 aspect-h-9'>
+                        <div className='flex flex-wrap justify-center items-center'>
+                        <img src='/assets/images/connector-a 1.png' alt='' />
+                        </div>
+                    </div>
+                    <div className='bg-concrete-500 text-sm py-3 px-5 text-center'>38999 SMPM Size 12 Pin</div>
+                    </div>
+                </div>
+                <div className=''>
+                    <div className='border-2 border-ultramarine-500 relative'>
+                    <span className='absolute top-3 right-3'>
+                        <svg width="24" height="24" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10 5C10 7.7614 7.7614 10 5 10C2.23857 10 0 7.7614 0 5C0 2.23857 2.23857 0 5 0C7.7614 0 10 2.23857 10 5ZM5 7.875C5.2071 7.875 5.375 7.7071 5.375 7.5V4.5C5.375 4.2929 5.2071 4.125 5 4.125C4.7929 4.125 4.625 4.2929 4.625 4.5V7.5C4.625 7.7071 4.7929 7.875 5 7.875ZM5 2.5C5.27615 2.5 5.5 2.72386 5.5 3C5.5 3.27614 5.27615 3.5 5 3.5C4.72385 3.5 4.5 3.27614 4.5 3C4.5 2.72386 4.72385 2.5 5 2.5Z" fill="#0077C8"/>
+                        </svg>
+                    </span>
+                    <div className='aspect-w-16 aspect-h-9'>
+                        <div className='flex flex-wrap justify-center items-center'>
+                        <img src='/assets/images/connector-a 1.png' alt='' />
+                        </div>
+                    </div>
+                    <div className='bg-concrete-500 text-sm py-3 px-5 text-center'>38999 SMPM Size 12 Pin</div>
+                    </div>
+                </div>
+                <div className=''>
+                    <div className='border-2 border-ultramarine-500 relative'>
+                    <span className='absolute top-3 right-3'>
+                        <svg width="24" height="24" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10 5C10 7.7614 7.7614 10 5 10C2.23857 10 0 7.7614 0 5C0 2.23857 2.23857 0 5 0C7.7614 0 10 2.23857 10 5ZM5 7.875C5.2071 7.875 5.375 7.7071 5.375 7.5V4.5C5.375 4.2929 5.2071 4.125 5 4.125C4.7929 4.125 4.625 4.2929 4.625 4.5V7.5C4.625 7.7071 4.7929 7.875 5 7.875ZM5 2.5C5.27615 2.5 5.5 2.72386 5.5 3C5.5 3.27614 5.27615 3.5 5 3.5C4.72385 3.5 4.5 3.27614 4.5 3C4.5 2.72386 4.72385 2.5 5 2.5Z" fill="#0077C8"/>
+                        </svg>
+                    </span>
+                    <div className='aspect-w-16 aspect-h-9'>
+                        <div className='flex flex-wrap justify-center items-center'>
+                        <img src='/assets/images/connector-a 1.png' alt='' />
+                        </div>
+                    </div>
+                    <div className='bg-concrete-500 text-sm py-3 px-5 text-center'>38999 SMPM Size 12 Pin</div>
+                    </div>
+                </div>
+                <div className=''>
+                    <div className='border-2 border-ultramarine-500 relative'>
+                    <span className='absolute top-3 right-3'>
+                        <svg width="24" height="24" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10 5C10 7.7614 7.7614 10 5 10C2.23857 10 0 7.7614 0 5C0 2.23857 2.23857 0 5 0C7.7614 0 10 2.23857 10 5ZM5 7.875C5.2071 7.875 5.375 7.7071 5.375 7.5V4.5C5.375 4.2929 5.2071 4.125 5 4.125C4.7929 4.125 4.625 4.2929 4.625 4.5V7.5C4.625 7.7071 4.7929 7.875 5 7.875ZM5 2.5C5.27615 2.5 5.5 2.72386 5.5 3C5.5 3.27614 5.27615 3.5 5 3.5C4.72385 3.5 4.5 3.27614 4.5 3C4.5 2.72386 4.72385 2.5 5 2.5Z" fill="#0077C8"/>
+                        </svg>
+                    </span>
+                    <div className='aspect-w-16 aspect-h-9'>
+                        <div className='flex flex-wrap justify-center items-center'>
+                        <img src='/assets/images/connector-a 1.png' alt='' />
+                        </div>
+                    </div>
+                    <div className='bg-concrete-500 text-sm py-3 px-5 text-center'>38999 SMPM Size 12 Pin</div>
+                    </div>
+                </div>
+                <div className=''>
+                    <div className='border-2 border-ultramarine-500 relative'>
+                    <span className='absolute top-3 right-3'>
+                        <svg width="24" height="24" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10 5C10 7.7614 7.7614 10 5 10C2.23857 10 0 7.7614 0 5C0 2.23857 2.23857 0 5 0C7.7614 0 10 2.23857 10 5ZM5 7.875C5.2071 7.875 5.375 7.7071 5.375 7.5V4.5C5.375 4.2929 5.2071 4.125 5 4.125C4.7929 4.125 4.625 4.2929 4.625 4.5V7.5C4.625 7.7071 4.7929 7.875 5 7.875ZM5 2.5C5.27615 2.5 5.5 2.72386 5.5 3C5.5 3.27614 5.27615 3.5 5 3.5C4.72385 3.5 4.5 3.27614 4.5 3C4.5 2.72386 4.72385 2.5 5 2.5Z" fill="#0077C8"/>
+                        </svg>
+                    </span>
+                    <div className='aspect-w-16 aspect-h-9'>
+                        <div className='flex flex-wrap justify-center items-center'>
+                        <img src='/assets/images/connector-a 1.png' alt='' />
+                        </div>
+                    </div>
+                    <div className='bg-concrete-500 text-sm py-3 px-5 text-center'>38999 SMPM Size 12 Pin</div>
+                    </div>
+                </div>
+                <div className=''>
+                    <div className='border-2 border-ultramarine-500 relative'>
+                    <span className='absolute top-3 right-3'>
+                        <svg width="24" height="24" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10 5C10 7.7614 7.7614 10 5 10C2.23857 10 0 7.7614 0 5C0 2.23857 2.23857 0 5 0C7.7614 0 10 2.23857 10 5ZM5 7.875C5.2071 7.875 5.375 7.7071 5.375 7.5V4.5C5.375 4.2929 5.2071 4.125 5 4.125C4.7929 4.125 4.625 4.2929 4.625 4.5V7.5C4.625 7.7071 4.7929 7.875 5 7.875ZM5 2.5C5.27615 2.5 5.5 2.72386 5.5 3C5.5 3.27614 5.27615 3.5 5 3.5C4.72385 3.5 4.5 3.27614 4.5 3C4.5 2.72386 4.72385 2.5 5 2.5Z" fill="#0077C8"/>
+                        </svg>
+                    </span>
+                    <div className='aspect-w-16 aspect-h-9'>
+                        <div className='flex flex-wrap justify-center items-center'>
+                        <img src='/assets/images/connector-a 1.png' alt='' />
+                        </div>
+                    </div>
+                    <div className='bg-concrete-500 text-sm py-3 px-5 text-center'>38999 SMPM Size 12 Pin</div>
+                    </div>
+                </div>
             </div>
         </div>
     </>
